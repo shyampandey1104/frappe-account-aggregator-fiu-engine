@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include account_aggregator_fiu *.css
+recursive-include account_aggregator_fiu *.csv
+recursive-include account_aggregator_fiu *.html
+recursive-include account_aggregator_fiu *.ico
+recursive-include account_aggregator_fiu *.js
+recursive-include account_aggregator_fiu *.json
+recursive-include account_aggregator_fiu *.md
+recursive-include account_aggregator_fiu *.png
+recursive-include account_aggregator_fiu *.py
+recursive-include account_aggregator_fiu *.svg
+recursive-include account_aggregator_fiu *.txt
+recursive-exclude account_aggregator_fiu *.pyc
